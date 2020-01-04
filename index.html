@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="utf-8">
   <title>Editora Jaguatirica | Transforme ideias em livros</title>
@@ -53,14 +53,12 @@
     </div>
 
     <div class="container">
-
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
         <!--<h1 class="text-light"><a href="#intro" class="scrollto"><span>Rapid</span></a></h1>-->
         <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> 
       </div>
-
-      <nav class="main-nav float-right d-none d-lg-block">
+      <nav class="main-nav float-right d-none d-lg-block navbar-fixed-top">
         <ul>
           <li class="active"><a href="#intro">Início</a></li>
           <li><a href="#about">Sobre</a></li>
@@ -69,7 +67,10 @@
           <li><a href="#team">Equipe</a></li>
           <li><a href="http://loja.editorajaguatirica.com.br">Loja virtual</a></li>
           <li><a href="#footer">Contato</a></li>
-
+        </ul>
+      </nav><!-- .main-nav -->
+      </div>
+    </header>
           <!--<li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -87,11 +88,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li>-->
-        </ul>
-      </nav><!-- .main-nav -->
-      
-    </div>
-  </header><!-- #header -->
+       <!-- #header -->
 
   <!--==========================
     Intro Section
@@ -122,7 +119,7 @@
           </div>
         </div>
   
-        <!--<div class="col-md-6 intro-img order-md-last order-first">
+        <div class="col-md-6 intro-img order-md-last order-first">
           <img src="img/hero.jpg" alt="" class="img-fluid">
         </div>
       </div>
@@ -188,7 +185,7 @@
             <div class="box">
               <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="">Leitura Crítica</a></h4>
-              <p class="description">A dúvida sobre a qualidade editorial de um texto ou adequação ao mercado pode ser solucionada com um leitura crítica de editores. Tal serviço pode lapidar o texto original e aumentar as chances de sucesso do seu livro.</p>
+              <p class="description">A dúvida sobre a qualidade editorial de um texto ou adequação ao mercado pode ser solucionada com um leitura crítica de editores. Tal serviço pode lapidar o texto original e aumentar as chances de sucesso do seu livro.</p><p></p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
@@ -209,7 +206,7 @@
             <div class="box">
               <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
               <h4 class="title"><a href="">Representação de autores</a></h4>
-              <p class="description">Anualmente, a Jaguatirica participa de feiras internacionais e, nestes ambientes, representa os melhores autores de seu catálogo perante editores estrangeiros. Este serviço pode ser contratado como opcional.</p>
+              <p class="description">Anualmente, a Jaguatirica participa de feiras internacionais e, nestes ambientes, representa os melhores autores de seu catálogo perante editores estrangeiros. Este serviço pode ser contratado como opcional.</p><p></p>
             </div>
           </div>
 
@@ -284,22 +281,22 @@
       <div class="container">
         <div class="row counters">
 
-          <div class="col-lg-2 col-6 text-center">
+          <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">185</span>
             <p>Autores</p>
           </div>
 
-          <div class="col-lg-2 col-6 text-center">
+          <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">504</span>
             <p>Publicações</p>
           </div>
 
-          <div class="col-lg-2 col-6 text-center">
+          <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">30</span>
             <p>Viagens editoriais</p>
           </div>
 
-          <div class="col-lg-2 col-6 text-center">
+          <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">40.682</span>
             <p>Páginas editadas</p>
           </div>
@@ -380,36 +377,35 @@
               <li data-filter=".filter-biografias">Biografias</li>
               <li data-filter=".filter-poesia">Poesia</li>
               <li data-filter=".filter-tecnicos">Técnicos</li>
-              <li data-filter=".filter-tecnicos">Acadêmicos</li>
-              <li data-filter=".filter-tecnicos">Romances</li>
-              <li data-filter=".filter-tecnicos">Ensaios</li>
-              <li data-filter=".filter-tecnicos">Não-ficção</li>
-
+              <li data-filter=".filter-academicos">Acadêmicos</li>
+              <li data-filter=".filter-romances">Romances</li>
+              <li data-filter=".filter-ensaios">Ensaios</li>
+              <li data-filter=".filter-naoficcao">Não-ficção</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-biografias">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-biografias" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/bio.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#"></a></h4>
+                <!-- <h4><a href="#"></a></h4> -->
                 <p>Biografia</p>
                 <div>
-                  <a href="img/portfolio/bio.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/bio.jpg" data-lightbox="portfolio" data-title="Biografia" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
           
-          <div class="col-lg-2 col-md-6 portfolio-item filter-biografias">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-biografias" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/bio2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#"></a></h4>
+                <!-- <h4><a href="#"></a></h4> -->
                 <p>Biografia</p>
                 <div>
                   <a href="img/portfolio/bio2.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
@@ -419,11 +415,11 @@
             </div>
           </div>
           
-          <div class="col-lg-2 col-md-6 portfolio-item filter-poesia">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-poesia" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/poesia.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#"></a></h4>
+                <!-- <h4><a href="#"></a></h4> -->
                 <p>Poesia</p>
                 <div>
                   <a href="img/portfolio/poesia.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
@@ -433,11 +429,11 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-poesia">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-poesia" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/poesia2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#"></a></h4>
+                <!-- <h4><a href="#"></a></h4> -->
                 <p>Poesia</p>
                 <div>
                   <a href="img/portfolio/poesia2.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
@@ -447,12 +443,12 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-tecnicos">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-tecnicos" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/tecnicos.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Técnico</a></h4>
-                <p>Engenharia</p>
+                <!-- <h4><a href="#"></a></h4> -->
+                <p>Técnico</p>
                 <div>
                   <a href="img/portfolio/tecnicos.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
@@ -461,12 +457,12 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-tecnicos">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-tecnicos" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/tecnicos2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Técnico</a></h4>
-                <p>Arquitetura</p>
+                <!-- <h4><a href="#">Técnico</a></h4> -->
+                <p>Técnico</p>
                 <div>
                   <a href="img/portfolio/tecnicos2.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
@@ -476,120 +472,120 @@
           </div>
         
          
-          <div class="col-lg-2 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-academicos" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <img src="img/portfolio/academicos.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Web 3</a></h4>
-                <p>Web</p>
+                <!-- <h4><a href="#"></a></h4> -->
+                <p>Acadêmicos</p>
                 <div>
-                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/academicos.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-academicos" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <img src="img/portfolio/academicos2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">App 2</a></h4>
-                <p>App</p>
+                <!-- <h4><a href="#"></a></h4> -->
+                <p>Acadêmicos</p>
                 <div>
-                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/academicos2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-romances" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <img src="img/portfolio/romances.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Card 2</a></h4>
-                <p>Card</p>
+                <!-- <h4><a href="#"></a></h4> -->
+                <p>Romances</p>
                 <div>
-                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/romances.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-romances" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <img src="img/portfolio/romances2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Web 2</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <!-- <h4><a href="#"></a></h4> -->
+                <p>Romances</p>
+              <div>
+                  <a href="img/portfolio/romances2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-ensaios" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <img src="img/portfolio/ensaios.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">App 3</a></h4>
-                <p>App</p>
+                <!-- <h4><a href="#"></a></h4> -->
+                <p>Ensaios</p>
                 <div>
-                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/ensaios.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-ensaios" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <img src="img/portfolio/ensaios2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Card 1</a></h4>
-                <p>Card</p>
+                <!-- <h4><a href="#"></a></h4> -->
+                <p>Ensaios</p>
                 <div>
-                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/ensaios2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-naoficcao" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <img src="img/portfolio/naoficcao.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Card 3</a></h4>
-                <p>Card</p>
+                <!-- <h4><a href="#"></a></h4> -->
+                <p>Não-ficção</p>
                 <div>
-                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/naoficcao.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
+
+          <div class="col-lg-2 col-md-6 portfolio-item filter-naoficcao" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <img src="img/portfolio/naoficcao2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
-                <p>Web</p>
+                <!-- <h4><a href="#"></a></h4> -->
+                <p>Não-ficção</p>
                 <div>
-                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/naoficcao2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="Mais detalhes"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
-
+        
         </div>
-
       </div>
     </section><!-- #portfolio -->
 
@@ -754,10 +750,10 @@
 
         <div class="owl-carousel clients-carousel">
           <img src="img/clients/amazon.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
-          <img src="img/clients/client-3.png" alt="">
-          <img src="img/clients/client-4.png" alt="">
-          <img src="img/clients/client-5.png" alt="">
+          <img src="img/clients/snel.jpg" alt="">
+          <img src="img/clients/libre.jpg" alt="">
+          <img src="img/clients/bilbiomundi.jpg" alt="">
+          <img src="img/clients/argumento.jpg" alt="">
           <img src="img/clients/client-6.png" alt="">
           <img src="img/clients/client-7.png" alt="">
           <img src="img/clients/client-8.png" alt="">
@@ -808,7 +804,7 @@
           <div class="col-xs-12 col-lg-4">
             <div class="card">
               <div class="card-header">
-                <h3><span class="currency">$</span>5,1k<span class="period">/a partir</span></h3>
+                <h3><span class="currency">R$</span>5,1k<span class="period">/a partir</span></h3>
               </div>
               <div class="card-block">
                 <h4 class="card-title"> 
@@ -830,7 +826,7 @@
           <div class="col-xs-12 col-lg-4">
             <div class="card">
               <div class="card-header">
-                <h3><span class="currency">$</span>10,4k<span class="period">/a partir</span></h3>
+                <h3><span class="currency">R$</span>10,4k<span class="period">/a partir</span></h3>
               </div>
               <div class="card-block">
                 <h4 class="card-title"> 
@@ -1004,7 +1000,7 @@
 <h3> </h3> 
                   <p>Desde 2012 transformando ideias em livros.</p>
                   <p>Editora-chefe: Paula Cajaty</p>
-                  <p>Editor assistente: Gabriel Benamor</p>
+                  <p>Assistente editorial: Gabriel Benamor</p>
                   <p>Divulgação: Clarice Bernardo</p> 
                   <p>Designer: Marcel Lopes</p>
                                   </div>
@@ -1013,7 +1009,7 @@
                     <h4>Nosso informativo</h4>
                     <p>Mantenha-se informado sobre nossos lançamentos, eventos e feiras literárias.</p>
                     <form action="" method="post">
-                      <input type="email" name="email"><input type="submit"  value="Assinar">
+                     <input type="email" name="email"><input type="submit"  value="Assinar">
                     </form>
                   </div>
 
@@ -1108,13 +1104,7 @@
         &copy;2020 Copyright <strong>Editora Jaguatirica</strong>. 
       </div>
       <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-        -->
-        Nossos selos <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      Nossos selos <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- #footer -->
